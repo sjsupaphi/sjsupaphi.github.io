@@ -8189,3 +8189,21 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     margin-bottom: 5em;
   }
 }
+
+/*Home Page Fade In*/
+.animate-in-home {
+  animation: fadeIn 2s ease-in;
+}
+
+.animate-in {
+  animation: fadeIn 1s ease-in;
+}
+
+.animate-out {
+  transition: opacity 0.5s;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0};
+  to {opacity: 1};
+}
