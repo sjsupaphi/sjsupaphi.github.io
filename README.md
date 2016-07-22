@@ -5,7 +5,7 @@ Authors: Jonathan Pan / David Vu
 
 #Still in the works
 
-***To Do: ***
+***To Do:***
 
   Chapters Page, 
   
