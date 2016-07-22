@@ -3,9 +3,9 @@
 The official San Jose State University website for Pi Alpha Phi's Delta Chapter.
 Authors: Jonathan Pan / David Vu
 
-***Still in the works***
+#Still in the works
 
-To Do: 
+***To Do: ***
 
   Chapters Page, 
   
