@@ -7,7 +7,11 @@ Authors: Jonathan Pan / David Vu
 
 To Do: 
   Chapters Page, 
+  
   Contact Page, 
+  
   Rush information, 
+  
   Footer contact links, 
+  
   Something cool happens when you click top left?
