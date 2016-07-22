@@ -6,6 +6,7 @@ Authors: Jonathan Pan / David Vu
 ***Still in the works***
 
 To Do: 
+
   Chapters Page, 
   
   Contact Page, 
