@@ -3739,6 +3739,12 @@ input[type=range] + .thumb {
     left: auto;
     right: auto;
   }
+  .row .col.mjp5 {
+    width: 20%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
   .row .col.m3 {
     width: 25%;
     margin-left: auto;
