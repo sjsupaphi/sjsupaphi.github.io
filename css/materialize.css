@@ -3490,6 +3490,13 @@ input[type=range] + .thumb {
   position: relative;
 }
 
+.row .col.s20 {
+  width: 20%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
+}
+
 .row .col.s1 {
   width: 8.3333333333%;
   margin-left: auto;
@@ -3502,14 +3509,6 @@ input[type=range] + .thumb {
   margin-left: auto;
   left: auto;
   right: auto;
-}
-
-.row .col.jp5 {
-  width: 20%;
-  margin-left: auto;
-  left: auto;
-  right: auto;
-  overflow-wrap: normal;
 }
 
 .row .col.s3 {
@@ -3727,6 +3726,12 @@ input[type=range] + .thumb {
 }
 
 @media only screen and (min-width: 601px) {
+  .row .col.m20 {
+    width: 20%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
   .row .col.m1 {
     width: 8.3333333333%;
     margin-left: auto;
@@ -3735,12 +3740,6 @@ input[type=range] + .thumb {
   }
   .row .col.m2 {
     width: 16.6666666667%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
-  }
-  .row .col.mjp5 {
-    width: 20%;
     margin-left: auto;
     left: auto;
     right: auto;
@@ -3916,6 +3915,12 @@ input[type=range] + .thumb {
 }
 
 @media only screen and (min-width: 993px) {
+  .row .col.l20 {
+    width: 20%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
   .row .col.l1 {
     width: 8.3333333333%;
     margin-left: auto;
