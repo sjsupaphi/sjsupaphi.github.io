@@ -5,14 +5,7 @@ Authors: Jonathan Pan / David Vu
 
 #Still in the works
 
-***To Do:***
+#V2.1
+Prety much everything is done, needs more work on the contact information.
+Rush schedule added but some information needs to be fixed.
 
-  Chapters Page, 
-  
-  Contact Page, 
-  
-  Rush information, 
-  
-  Footer contact links, 
-  
-  Something cool happens when you click top left?
