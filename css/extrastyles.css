@@ -14,3 +14,7 @@
 .twentyfive {
 	font-size: 25px;
 }
+
+tr, th, td {
+	text-align: center;
+}
