@@ -14,6 +14,7 @@
         <li><a href="../rush" class="nav-tab">     RUSH </a></li>
         <li><a href="../alumni" class="nav-tab">    ALUMNI </a></li>
         <li><a href="../gallery" class="nav-tab">  GALLERY </a></li>
+        <li><a href="../contact" class="nav-tab">  CONTACT </a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
