@@ -1,8 +1,48 @@
-All content on 'master' branch is deployable
-Whenever you add, edit, or delete a file you're making a 'commit' to the branch
-'Pull requests' let you tell others abut chances you've pushed to a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before the changes are merged into the repository.
-When you create a repository on Github, it exists as a remote repository. You can 'clone' your repository to create a local copy on your computer and sync between the two locations.
-	*git clone (https section from Github)
-	
-	git commit -a -m "Message"
-	git push origin <branchName> *branch name?
+<!DOCTYPE html>
+<html lang="en" class="grey darken-4">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <title> &Pi;&Alpha;&Phi; | Chapters </title>
+
+    <!-- CSS  -->
+    <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="../css/extrastyles.css" type="text/css" rel="stylesheet">
+    <link href="../mdi/css/materialdesignicons.min.css" type="text/css" rel="stylesheet" media="all">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Amatica+SC|Open+Sans+Condensed:300|Shadows+Into+Light" rel="stylesheet">
+	  <!--
+    font-family: 'Open Sans Condensed', sans-serif;
+		font-family: 'Shadows Into Light', cursive;
+		font-family: 'Amatica SC', cursive; -->
+  </head>
+
+	<body>
+
+	  <nav class="grey darken-4" role="navigation" style="font-family: 'Amatica SC', cursive;">
+	    <!-- Navigation Bar is rendered in js/init.js -->
+	  </nav>
+
+
+	 <footer class="page-footer grey darken-4" style="font-family: 'Open Sans Condensed', sans-serif;">
+		  <!-- Footer is rendered in js/init.js -->
+	 </footer>
+
+
+
+
+		  <!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="../js/materialize.js"></script>
+<script src="../js/init.js"></script>
+<script>
+  $(document).ready(function(){
+  // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+	 $('.modal-trigger').leanModal();
+		    });
+	  </script>
+	</body>
+</html>
