@@ -20,6 +20,7 @@ body {
 
 #extra-info {
 	display: inline-block;
+	height: 50%;
 	width: 30%;
 }
 
