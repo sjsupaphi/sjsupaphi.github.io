@@ -84,5 +84,5 @@ $(document).ready(function() {
     </div>`;
   $('footer').addClass("container-fluid");
   $('footer').append(footerContent);
-
+alert("end");
 });
