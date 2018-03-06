@@ -1,0 +1,125 @@
+:root {
+	--inverse:	#222222;
+}
+
+body {
+	padding: 10px;
+}
+
+hr {
+	border-top: 3px solid grey;
+	width: 80%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a, a:hover {
+	color: white;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-1-1 {
+	flex: 1 1;
+	height: 200px;
+	background-color: black;
+	border: 2px solid white;
+}
+
+.black-text {color: black !important;}
+
+.event-date {
+	white-space: nowrap;
+}
+
+.table td, .table th {
+	padding: 5px 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+		width: 100%;
+		padding-left: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+		width: 100%;
+    z-index: 1;
+		background-color: var(--inverse);
+}
+
+.dropdown-content a {
+    display: block;
+		border: 1px solid grey;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.modal-dialog {
+	margin-top: 15%;
+}
+
+.modal-content {
+	background-color: var(--inverse);
+}
+
+
+
+footer {
+	color: white;
+	background-color: var(--inverse);
+	margin-top:30px;
+	padding-top: 30px;
+	padding-bottom: 15px;
+}
+
+footer ul {
+	padding-left: 0;
+}
+
+#social-media-icons li {
+	display: inline-block;
+	border: 1.5px solid white;
+	border-radius: 100%;;
+	padding-left: 5px;
+	margin-left: 5px;
+}
+
+#footer-contactList li {
+	display: inline-block;
+}
+
+#navBar {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	background-color: #222222;
+}
+
+#navBar > li {
+	flex: 1 1;
+}
+
+#crest-logo {
+	width: 50%;
+	height: auto;
+	vertical-align: text-bottom;
+}
+
+#home-branding-container {
+	height: 350px;
+	width: 500px;
+	margin: 40px auto;
+	background-color: black;
+}
