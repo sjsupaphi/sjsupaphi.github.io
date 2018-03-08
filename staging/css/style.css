@@ -4,6 +4,8 @@
 
 body {
 	padding: 10px;
+	color: white;
+	background-color: grey;
 }
 
 hr {
@@ -119,7 +121,6 @@ footer ul {
 
 #home-branding-container {
 	height: 350px;
-	width: 500px;
 	margin: 40px auto;
 	background-color: black;
 }
