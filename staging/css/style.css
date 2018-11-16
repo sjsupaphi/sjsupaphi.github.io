@@ -3,7 +3,7 @@
 }
 
 body {
-	padding: 10px;
+	padding: 5px;
 	color: white;
 	background-color: grey;
 }
@@ -43,6 +43,10 @@ a, a:hover {
 	padding: 5px 5px;
 }
 
+.jumbo-color {
+    color: black;
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -75,7 +79,10 @@ a, a:hover {
 	background-color: var(--inverse);
 }
 
-
+.navBar-expand {
+    padding-left: 0;
+    width: 100%;
+}
 
 footer {
 	color: white;
@@ -93,8 +100,8 @@ footer ul {
 	display: inline-block;
 	border: 1.5px solid white;
 	border-radius: 100%;;
-	padding-left: 5px;
-	margin-left: 5px;
+	padding-left: 0px;
+	margin-left: 0px;
 }
 
 #footer-contactList li {
@@ -103,10 +110,9 @@ footer ul {
 
 #navBar {
 	text-align: center;
-	display: flex;
 	flex-direction: row;
 	align-items: baseline;
-	background-color: #222222;
+	background-color: white;
 }
 
 #navBar > li {
@@ -121,6 +127,6 @@ footer ul {
 
 #home-branding-container {
 	height: 350px;
-	margin: 40px auto;
+	margin: 10px auto;
 	background-color: black;
 }

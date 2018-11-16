@@ -2,39 +2,38 @@ $(document).ready(function() {
   var headerContent =
     `
     <div id="heading-banner">
-      <img src="../imgs/rush-flyer.jpg" width="100%" height="400px"/>
+      <img src="/sjsupaphi.github.io/pics/Pi Alpha Phi Frat.png" width="100%" height="300px"/>
     </div>
-    <ul id="navBar">
-      <li><a href="../index.html">Home</a></li>
-      <li>
-        <ul class="dropdown">
-          <li><a href="../about/index.html">About</a></li>
-            <div class="dropdown-content">
-            <li><a href="../about/index.html#history">History</a></li>
-            <li><a href="../about/index.html#our-pillars">Our Pillars</a></li>
-            <li><a href="../about/index.html#chapters">Chapters</a></li>
-          </div>
-        </ul>
-      </li>
-      <li>
-      <ul class="dropdown">
-          <li><a href="../join-us/index.html">Join Us</a></li>
-        <div class="dropdown-content">
-          <li><a href="../join-us/index.html#rush">Rush</a></li>
-          <li><a href="../join-us/index.html#rush-schedule">Spring 2018 Rush Schedule</a></li>
-          <li><a href="../join-us/index.html#faq">FAQ</a></li>
+    <ul id="navBar" width = "800px">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light navBar-expand" width = "800px">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Chapters <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Rush <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 About
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#"> Pillars </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"> FAQ </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"> Contact Us </a>
+              </div>
+            </li>
+          </ul>
         </div>
-      </ul>
-      </li>
-      <li>
-        <ul class="dropdown">
-        <li><a href="../media/index.html">Media</a></li>
-          <div class="dropdown-content">
-            <li><a href="#">Videos</a></li>
-            <li><a href="#">Photos</a></li>
-          </div>
-        </ul>
-      </li>
+      </nav>
     </ul>`;
   $("header").append(headerContent);
 
@@ -66,6 +65,7 @@ $(document).ready(function() {
               <div class="modal-dialog modal-lg">
                   <div class="modal-content">
                     <h4> Contact |  &Pi;&Alpha;&Phi; Web Developer</h4>
+                    <p>Vincent Truong (&Delta;223): vincevutruong@gmail.com<br/><a href="https://www.linkedin.com/in/vincevtruong /" target="_blank" >LinkedIn Profile</a><br/>
                     <p>David Vu (&Delta;196): david.d.vu@sjsu.edu<br/><a href="https://www.linkedin.com/in/david-vu-408/" target="_blank" >LinkedIn Profile</a><br/>Contact for inquiries on web development quotes for your organization.</p>
                   </div>
                 </div>
